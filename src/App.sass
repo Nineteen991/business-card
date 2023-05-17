@@ -1,0 +1,49 @@
+*,
+*::after,
+*::before 
+  margin: 0
+  padding: 0
+  box-sizing: inherit
+
+:root
+  --mint: #64ffda
+
+html
+  box-sizing: border-box
+  font-size: 62.5%
+
+body
+  height: 100vh
+  width: 100%
+  padding: 10%
+  /* fallback for old browsers */
+  background: #0F2027
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(to left, #2C5364, #203A43, #0F2027)
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to left, #2C5364, #203A43, #0F2027)
+
+a:link, a:visited, a:hover, a:active
+  text-decoration: none
+  color: var(--mint)
+
+.business-card
+  width: 100%
+  color: var(--mint)
+  display: grid
+  place-items: center
+
+.my-portrait
+  width: 60%
+  border-radius: 50%
+  margin-bottom: 2rem
+
+.title
+  font-size: 4rem
+  margin-bottom: 2rem
+
+.website-link
+  text-align: center
+
+.qrcode
+  width: 60%
